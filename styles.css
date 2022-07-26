@@ -1,0 +1,111 @@
+body {
+    background-color: blanchedalmond;
+    animation: change-background 4s linear infinite;
+}
+
+@keyframes change-background {
+      0% {
+        background: #69b7eb;
+      }
+      50% {
+        background: #b3dbd3;
+      }
+      100% {
+        background: #f4d6db;
+      }
+    }
+
+.container {
+    text-align: center;
+    
+    
+}
+
+@keyframes container {
+      0% {
+        background: blue;
+      }
+      50% {
+        background: orange;
+      }
+      100% {
+        background: black;
+      }
+    }
+
+
+
+.list1, .list2, .list3, .list4, .list5, .list6, .result {
+    width: 300px;
+    height: 60px;
+    
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    b
+    
+}
+
+
+
+.calculator {
+    width: 380px;
+    height: 750px;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    animation: container 4s linear infinite;
+    border-radius: 50px;
+}
+
+#result {
+    width: 280px;    
+    height: 55px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    animation: changeResult 4s linear infinite;
+    border-radius: 50px;
+}
+
+
+@keyframes changeResult {
+      0% {
+        background: yellow;
+      }
+      50% {
+        background: black;
+      }
+      100% {
+        background: red;
+      }
+    }
+
+.btr {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    animation: changebutton 4s linear infinite;
+}
+
+
+@keyframes changebutton {
+      0% {
+        background: black;
+      }
+      50% {
+        background: red;
+      }
+      100% {
+        background: yellow;
+      }
+    }
